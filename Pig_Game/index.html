@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameArea">
+        <div class="container">
+            <button class="New_Game" id="New_Game" onclick="window.location.reload()">
+                New_Game
+            </button>
+            <div class="diesContainer">
+                <div class="dicesImage">
+
+                </div>
+            </div>
+            <div class="Player_1">
+                <h1 class="player1">
+                    <div class="active1_player " id="active_player"></div>
+                    <span class="Player1_text" id="Player1_text">Player1</span>
+                </h1>
+                <div class="Player1_GlobalScore">
+                    <span class="Player1_GlobalScore" id="Player1_GlobalScore">10</span>
+                </div>
+                <div class="Player1_currentScore">
+                    <span class="curr1_Score"  id="curr1_Score">
+                        10
+                    </span>
+                </div>
+            </div>
+            <div class="controls_btn">
+                <button class="roll_btn">roll</button>
+                <button class="Hold_btn">Hold</button>
+            </div>
+            <div class="Player_2">
+                <h1 class="player2">
+                    <div class="active2_player"></div>
+                    <span class="Player2_text" id="Player2_text">Player2</span>
+                </h1>
+                <div class="Player2_GlobalScore">
+                    <span class="Player2_GlobalScore" id="Player2_GlobalScore">10</span>
+                </div>
+                <div class="Player2_currentScore">
+                    <span class="curr2_Score"  id="curr2_Score">
+                        10
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
